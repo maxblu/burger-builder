@@ -1,0 +1,17 @@
+{
+  "hosting": {
+    "site": "react-my-burger-4d1a1",
+    "public": "build",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
